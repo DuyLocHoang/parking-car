@@ -21,5 +21,5 @@
 | **Models**     | Exactly which model(s) are you using? Write out the basic math formulas and clearly note any modifications or additions. If you have more than one model, make subsections for each. **(3-4 sentences max)**|
 | **Results**    | Make a compact table of results. Each row should be a different model. The columns should be the training error and the test error. List how many samples are in each of the training and testing data sets. Obviously, these sets should be different. **(1-2 sentences max + 1 table max)**|
 | **Discussion** | This is where you share your thoughts about your project. (Hopefully you have a few interesting interpretations!) Briefly summarized what just happened. Briefly explain whether or not you expected your results. If your results were good, explain why. If they were not good, explain why. **(6 sentences max)**|
-| **Future**     | If you had another 6 months to work on this, what would you do first? **(2-3 sentences max)**|
-|**References**  |[IEEE style](https://ctan.org/topic/bibtex-sty?lang=en) is fine|
+| **Future**     |Thực hiện bài toán trên bằng object detection model SSD|
+|**References**  |[OPENCV tutorial](https://docs.opencv.org/master/d6/d00/tutorial_py_root.html)|
