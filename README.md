@@ -11,7 +11,7 @@
 | **Datasets**     |Mô hình được train với bộ dữ liệu gồm các ảnh được segmentation vị trí đỗ xe có hay không lấp đầy|
 | **Level of difficulty**|Sử dụng nhanh và dễ, tùy vào số lượng chỗ đõ xe nhiều hay ít mà ảnh hưởng tới tốc độ đáp ứng|
 
-##### Final Project poster
+### Final Project poster
 | **Title**      | Detect empty parking slots|
 | ---------- |-------------------|
 | **Team**       | Hoàng Duy Lộc(loc.hoangduyloc@gmail.com|
