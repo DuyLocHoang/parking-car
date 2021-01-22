@@ -2,12 +2,11 @@
 
 |      | |
 | ---------- |-------------------|
-| **Author**       | Ultralytics LLC|
-| **Title**        | YOLO v.3 real time object detection |
-| **Topics**       | Ứng dụng trong computer vision, sử dụng thuật toán chính là CNN|
-| **Descriptions** | Input sẽ là các tấm hình và file .txt có tên tương ứng và chứa 5 thông số của object. đầu tiên là ```<class object>``` và ```<x, y, width, height>``` của bounding box chứa vật. khi train xong sẽ trả ra output là file trọng số ```weights```. Ta sẽ sử dụng trọng số ```weights``` đã train để predict bounding box và class của các object trong hình|
+| **Author**       | Hoang Duy Loc|
+| **Title**        | detect empty (available) parking slots from overhead images |
+| **Topics**       | Ứng dụng trong computer vision, sử dụng thuật toán chính là mô hình CNN đơn giản|
+| **Descriptions** | Input sẽ là các tấm hình nơi đỗ xe occupied hay free . khi train xong sẽ trả ra output là file trọng số ```weights```. Ta sẽ sử dụng trọng số ```weights``` đã train để predict chỗ đậu xe còn trống trong hình ảnh overhead của một bãi đỗ xe|
 | **Links**        | https://github.com/ultralytics/yolov3|
-| **Framework**    | PyTorch|
-| **Pretrained Models**  | sử dụng weight đã được train sẵn https://pjreddie.com/media/files/yolov3.weights|
-| **Datasets**     |Mô hình được train với bộ dữ liệu cocodataset.org. Ngoài ra còn có các tập dữ liệu có thể sử dụng: PASCAL VOC, Open Images Dataset V4,..v.v.,|
-| **Level of difficulty**|Sử dụng nhanh và dễ, có thể train lại với tập dữ liệu khác tốc độ tùy thuộc vào phần cứng và hình ảnh input|
+| **Framework**    | Keras|
+| **Datasets**     |Mô hình được train với bộ dữ liệu gồm các ảnh được segmentation vị trí đỗ xe có hay không lấp đầy|
+| **Level of difficulty**|Sử dụng nhanh và dễ, tùy vào số lượng chỗ đõ xe nhiều hay ít mà ảnh hưởng tới tốc độ đáp ứng|
