@@ -14,12 +14,12 @@
 ### Final Project poster
 | **Title**      | Detect empty parking slots|
 | ---------- |-------------------|
-| **Team**       | Hoàng Duy Lộc(loc.hoangduyloc@gmail.com|
+| **Team**       | Hoàng Duy Lộc(loc.hoangduyloc@gmail.com)|
 | **Predicting** | Đầu vào là tấm ảnh overhead của một bãi đỗ xe từ đó detect ra số vị trí trống trong bãi đõ xe |
 | **Data**       | Là những ảnh được đã được segmentation vị trí đỗ xe free hay occupied. Data được đặt trong file data gồm 96 ảnh free và 198 ảnh occupied|
-| **Features**   | How many features do you have and which features are the raw input data (ex. color, weight, location, etc) vs. features you have derived (ex. ICA, Gaussian Kernel)? Why they are appropriate for this task? **(3-4 sentences max)**|
-| **Models**     | Exactly which model(s) are you using? Write out the basic math formulas and clearly note any modifications or additions. If you have more than one model, make subsections for each. **(3-4 sentences max)**|
-| **Results**    | Make a compact table of results. Each row should be a different model. The columns should be the training error and the test error. List how many samples are in each of the training and testing data sets. Obviously, these sets should be different. **(1-2 sentences max + 1 table max)**|
-| **Discussion** | This is where you share your thoughts about your project. (Hopefully you have a few interesting interpretations!) Briefly summarized what just happened. Briefly explain whether or not you expected your results. If your results were good, explain why. If they were not good, explain why. **(6 sentences max)**|
+| **Features**   | |
+| **Models**     | Mô hình CNN dùng để classification giữa 2 class free và occupied. Model gồm 4 lớp Conv2D, 1 lớp Dense và đầu ra làm hàm sigmoid  với Loss = Crossentroy và Metrics = 'accuracy', ngoài ra còn sử dụng những kỹ thuật tránh overfitting như augmentation data, cũng như reduce learning rate giúp mô hình tốt hơn  |
+| **Results**    | Loss train : 0.027 - accuracy : 1.000 ; Loss val : 0.1055 - accuracy : 0.9682  |
+| **Discussion** | |
 | **Future**     |Thực hiện bài toán trên bằng object detection model SSD|
 |**References**  |[OPENCV tutorial](https://docs.opencv.org/master/d6/d00/tutorial_py_root.html)|
