@@ -23,3 +23,16 @@
 | **Discussion** | |
 | **Future**     |Thực hiện bài toán trên bằng object detection model SSD|
 |**References**  |[OPENCV tutorial](https://docs.opencv.org/master/d6/d00/tutorial_py_root.html)|
+
+### RUN CODE
+1. RUn file spot_dcit_test.py để lấy ra vị trí của những ô đỗ xe dạng dictionary lưu vào file pickle
+2. Run file train.py lấy ra weights lưu vào file detect.h5 
+3. Run file predict.py để predict ảnh trong data/test/
+4. Run file video.py để predict video 
+
+### Kết quả thủ được
+<img src="https://github.com/DuyLocHoang/parking-car/blob/master/predict.jpg">
+
+### Link Google Colab
+[Google Colab](https://colab.research.google.com/drive/1JjrPr5MvfgNE-iEJ319S8Td1BeztObXY?usp=sharing)
+### Pipeline xử lý ảnh toàn cảnh đầu vào 
