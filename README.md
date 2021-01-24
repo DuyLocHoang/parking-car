@@ -37,3 +37,6 @@
 [Google Colab](https://colab.research.google.com/drive/1JjrPr5MvfgNE-iEJ319S8Td1BeztObXY?usp=sharing)
 ### Pipeline xử lý ảnh toàn cảnh đầu vào 
 <img src="https://lh4.googleusercontent.com/XitV4hQleXeRDYsHqJHfQbeinaq-arnVHDS4nWqJauMn0HYBRdJonNSQF1v1_dhLKG0kxXHjR6uWtOFNhaqmCHODNXPokG5tQoCvLR0S">
+
+### Deploy
+[Dùng Gradio deploy sản phẩm trên webserver](https://www.gradio.app/getting_started)
